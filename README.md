@@ -6,7 +6,7 @@ It includes pure python *wmsigner* to sign requests.
 
 Note: library only supports authorization by keys from KWM file with password.
 
-More information about interfaces at http://wiki.wmtransfer.com/wiki/list/XML-Interfaces
+More information about interfaces at [http://wiki.wmtransfer.com/wiki/list/XML-Interfaces](http://wiki.wmtransfer.com/wiki/list/XML-Interfaces)
 
 
 ### Requirements: 
