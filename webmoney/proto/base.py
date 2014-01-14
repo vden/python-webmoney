@@ -50,8 +50,7 @@ class BaseWMRequest(object):
             _el = etree.SubElement(_op, key)
             _el.text = value
 
-        data = etree.tostring(root, pretty_print=True)
-        print data
+        data = etree.tostring(root)
         req = urllib2.Request(self.url, data=data)
         try:
             result = self.connection.open(req).read()
