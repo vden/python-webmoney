@@ -33,7 +33,8 @@ class BaseWMRequest(object):
 
     def send(self, operation, data):
         self.counter += 1
-        if self.counter >= 10000: self.counter = 0
+        if self.counter >= 10000:
+            self.counter = 0
 
         root = etree.Element("w3s.request")
         _reqn = etree.SubElement(root, "reqn")
